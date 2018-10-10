@@ -10,7 +10,8 @@
     "build:storybook": "vue-cli-service build:storybook -c config/storybook"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-storybook": "^0.4.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "4.0.0-alpha.20",
