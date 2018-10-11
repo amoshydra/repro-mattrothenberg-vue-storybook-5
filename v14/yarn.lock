@@ -6737,9 +6737,25 @@ vue-loader@^13.0.5:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-storybook@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vue-storybook/-/vue-storybook-0.3.0.tgz#1b40bd3e043893c2a0b9330808eec87ebaafc82f"
+"vue-storybook-2@https://github.com/colinfindlay-nz/vue-storybook/tarball/master":
+  version "0.4.0"
+  resolved "https://github.com/colinfindlay-nz/vue-storybook/tarball/master#34c0a3cb7ea381fc910b179e2052badd0ac490d1"
+  dependencies:
+    loader-utils "^1.1.0"
+    serialize-javascript "^1.4.0"
+    vue "^2.5.16"
+
+"vue-storybook-3@https://github.com/amoshydra/vue-storybook/tarball/webpack-inject-util":
+  version "0.4.0"
+  resolved "https://github.com/amoshydra/vue-storybook/tarball/webpack-inject-util#c8a0cf53251329c84215940e47b0609b67de6ab7"
+  dependencies:
+    loader-utils "^1.1.0"
+    serialize-javascript "^1.4.0"
+    vue "^2.5.16"
+
+vue-storybook@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vue-storybook/-/vue-storybook-0.4.0.tgz#f7b3c6c277492d52fcdb4b25733e9d9757a369e5"
   dependencies:
     loader-utils "^1.1.0"
     serialize-javascript "^1.4.0"
