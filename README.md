@@ -58,8 +58,8 @@ When testing inside v14 folder, it need to be uncommented in `test-helper/module
 ## Expected observation
 | Option | Condition | Work in v3? | Work in v4? |
 | :-- | :-- | :-- | :--
-| 0 | USE_INDEX_BASED_MUTATION       | ✔  | ❌ |
-| 1 | USE_INDEX_BASED_MUTATION_V15   | N/A | ❌ |
-| 2 | USE_RESOURCE_QUERY             | ❌ + Failed to compile  | ✔ |
+| 0 | USE_INDEX_BASED_MUTATION       | ✔  | ❌ - Vue-loader is no longer in index 0 |
+| 1 | USE_INDEX_BASED_MUTATION_V15   | N/A | ❌ - Story failed to load |
+| 2 | USE_RESOURCE_QUERY             | ❌ - Failed to compile  | ✔ |
 | 3 | USE_INJECT_UTILITY             | ✔  | N/A |
 | 4 | USE_RESOURCE_QUERY_AMOSHYDRA   | N/A | ✔  |
