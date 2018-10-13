@@ -1,27 +1,6 @@
-const OPTIONS = {
-  USE_INDEX_BASED_MUTATION: 0,
-  USE_INDEX_BASED_MUTATION_V15: 1,
-  USE_RESOURCE_QUERY: 2,
-  USE_INJECT_UTILITY: 3,
-  USE_RESOURCE_QUERY_AMOSHYDRA: 4,
-};
-
-const selectedConfigOption = parseInt(process.env.CONFIG_OPTION || '0', 10);
-
-const chosenVersion = ((configOption) => {
-  switch (configOption) {
-    case 0:
-    case 1:
-      return require('vue-storybook');
-    case 2:
-      // return require('vue-storybook-2');
-      break;
-    case 3:
-    case 4:
-    default:
-      return require('vue-storybook-3');
-  }
-})(selectedConfigOption);
+const OPTIONS = require('../../test-helper/option-types');
+const chosenVersion = require('../../test-helper/module-selector');
+const selectedConfigOption = require('../../test-helper/selected-config-option');
 
 module.exports = selectWebpackConfiguration(selectedConfigOption);
 
