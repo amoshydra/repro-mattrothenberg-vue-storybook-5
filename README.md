@@ -54,3 +54,12 @@ Use different ENV to test different conditions. See corresponding `.storybook/we
 
 Note: `vue-storybook-2` which point to `https://github.com/colinfindlay-nz/vue-storybook/tarball/master` will not work in webpack 3.
 When testing inside v14 folder, it need to be uncommented in `test-helper/module-selector`.
+
+## Expected observation
+| Option | Condition | Work in v3? | Work in v4? |
+| :-- | :-- | :-- | :--
+| 0 | USE_INDEX_BASED_MUTATION       | ✔  | ❌ |
+| 1 | USE_INDEX_BASED_MUTATION_V15   | N/A | ❌ |
+| 2 | USE_RESOURCE_QUERY             | ❌ + Failed to compile  | ✔ |
+| 3 | USE_INJECT_UTILITY             | ✔  | N/A |
+| 4 | USE_RESOURCE_QUERY_AMOSHYDRA   | N/A | ✔  |
