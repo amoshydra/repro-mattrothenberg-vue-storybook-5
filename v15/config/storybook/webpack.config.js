@@ -1,6 +1,6 @@
-const OPTIONS = require('../../test-helper/option-types');
-const chosenVersion = require('../../test-helper/module-selector');
-const selectedConfigOption = require('../../test-helper/selected-config-option');
+const OPTIONS = require('../../../test-helper/option-types');
+const chosenVersion = require('../../../test-helper/module-selector');
+const selectedConfigOption = require('../../../test-helper/selected-config-option');
 
 module.exports = selectWebpackConfiguration(selectedConfigOption);
 
