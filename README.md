@@ -42,7 +42,7 @@ Visit http://localhost:6006
 
 ## `CONFIG_OPTION`
 
-Use different ENV to test different conditions
+Use different ENV to test different conditions. See corresponding `.storybook/webpack.config.js` for details
 
 | Config Option | Condition | Note
 | :-- | :-- | :--
