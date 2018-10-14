@@ -63,3 +63,5 @@ When testing inside v14 folder, it need to be uncommented in `test-helper/module
 | 2 | USE_RESOURCE_QUERY             | ❌ - Failed to compile  | ✔ |
 | 3 | USE_INJECT_UTILITY             | ✔  | N/A |
 | 4 | USE_RESOURCE_QUERY_AMOSHYDRA   | N/A | ✔  |
+
+`N/A`: Not applicable for this environment
