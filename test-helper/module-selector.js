@@ -8,7 +8,7 @@ module.exports = ((configOption) => {
       return require('vue-storybook');
     case OPTIONS.USE_RESOURCE_QUERY:
       // return require('vue-storybook-2');
-      break;
+      break; /* eslint-disable-line */
     case OPTIONS.USE_INJECT_UTILITY:
     case OPTIONS.USE_RESOURCE_QUERY_AMOSHYDRA:
     default:
