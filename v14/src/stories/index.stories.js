@@ -8,7 +8,7 @@ import { withKnobs, text, boolean, number } from '@storybook/addon-knobs/vue';
 import { configure } from '@storybook/vue';
 
 // Import our helper
-const chosenVersion = require('../../../test-helper/module-selector');
+import chosenVersion from '../../../test-helper/module-selector';
 const req = require.context('./', true, /\.vue$/)
 
 function loadStories() {

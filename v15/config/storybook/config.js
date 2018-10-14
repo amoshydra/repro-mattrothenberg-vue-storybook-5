@@ -1,11 +1,11 @@
 // Import Storybook + all 'yr plugins!
-const { storiesOf, configure } = require("@storybook/vue");
-const { action } = require("@storybook/addon-actions");
-const { withNotes } = require("@storybook/addon-notes");
-const { withKnobs, text, color, select } = require("@storybook/addon-knobs"); // eslint-disable-line
+import { storiesOf, configure } from "@storybook/vue";
+import { action } from "@storybook/addon-actions";
+import { withNotes } from "@storybook/addon-notes";
+import { withKnobs, text, color, select } from "@storybook/addon-knobs"; // eslint-disable-line
 
 // Import our helper
-const chosenVersion = require('../../../test-helper/module-selector');
+import chosenVersion from '../../../test-helper/module-selector';
 
 // Require the Vue SFC with <story> blocks inside
 const req = require.context("../../src/stories", true, /\.vue$/);
